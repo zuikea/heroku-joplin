@@ -11,8 +11,7 @@
     ],
     "success_url": "/api/ping",
     "addons": [
-        "heroku-postgresql:hobby-dev",
-        "papertrail"
+        "heroku-postgresql:hobby-dev"
     ],
     "env": {
         "APP_BASE_URL": {
