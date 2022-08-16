@@ -3,7 +3,7 @@
     "name": "joplin-server-heroku",
     "description": "将joplin-server部署到heroku",
     "repository": "https://github.com/zuikea/heroku-joplin",
-    "logo": "https://node-js-sample.herokuapp.com/node.png",
+    "logo": "https://joplinapp.org/images/logo-text.svg",
     "keywords": [
         "Docker",
         "Joplin Server",
