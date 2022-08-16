@@ -15,7 +15,64 @@
     ],
     "env": {
         "APP_BASE_URL": {
-            "description": "heroku提供的网站名称"
-        }
+            "description": "heroku提供的网站名称",
+            "value": "https://xxx.herokuapp.com" 
+        },
+        "DB_CLIENT": {
+            "description": "是否使用pg客户端，设为pg，未使用，其他不使用",
+            "value": "no pg" 
+        },
+        "POSTGRES_HOST": {
+            "description": "pg地址",
+            "value": "host" 
+        },        
+        "POSTGRES_PORT": {
+            "description": "pg端口",
+            "value": "5432"
+        },
+        "POSTGRES_DATABASE": {
+            "description": "pg数据库名称",
+            "value": "joplin" 
+        },        
+        "POSTGRES_USER": {
+            "description": "pg用户名",
+            "value": "joplin" 
+        },    
+        "POSTGRES_PASSWORD": {
+            "description": "pg密码",
+            "value": "joplin" 
+        },
+        "MAILER_ENABLED": {
+            "description": "是否启用，邮箱，0不启用，1，启用",
+            "value": "0" 
+        },
+        "MAILER_NOREPLY_NAME": {
+            "description": "搭建网站的域名或其他(Ikun)，邮箱中，发件人的名称",
+            "value": "https://xxx.herokuapp.com" 
+        },
+        "MAILER_SECURITY": {
+            "description": "email安全协议,不用改",
+            "value": "starttls" 
+        },        
+        "MAILER_NOREPLY_EMAIL": {
+            "description": "自己翻译,不清楚什么玩意？，邮箱总没错",
+            "value": "123@qq.com"
+        },
+        "MAILER_HOST": {
+            "description": "邮箱地址",
+            "value": "smtp.qq.com" 
+        },        
+        "MAILER_PORT": {
+            "description": "邮箱端口",
+            "value": "587" 
+        },    
+        "MAILER_AUTH_USER": {
+            "description": "邮箱账号",
+            "value": "123@qq.com" 
+        },
+        "MAILER_AUTH_PASSWORD": {
+            "description": "邮箱密码或授权码",
+            "value": "password" 
+        },
     }
 }
