@@ -47,7 +47,7 @@
             "value": "0" 
         },
         "MAILER_NOREPLY_NAME": {
-            "description": "搭建网站的域名或其他(Ikun)，邮箱中，发件人的名称",
+            "description": "搭建网站的域名或其他(Ikun,只因你太美)，邮箱中，发件人的名称",
             "value": "https://xxx.herokuapp.com" 
         },
         "MAILER_SECURITY": {
