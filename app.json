@@ -7,7 +7,7 @@
   "success_url": "/api/ping",
   {
     "stack": "container"
-  }
+  },
   "env": {
     "APP_BASE_URL": {
       "description": "heroku提供的网站名称"
