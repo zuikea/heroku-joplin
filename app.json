@@ -73,6 +73,6 @@
         "MAILER_AUTH_PASSWORD": {
             "description": "邮箱密码或授权码",
             "value": "password" 
-        },
+        }
     }
 }
