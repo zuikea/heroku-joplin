@@ -2,7 +2,7 @@
 Dockerfile中镜像，是打包的官方存储库fork过来的，通过GitHub Actions自动生成镜像到hub.docker.com
 
 # app.json
-##自动生成仓库地址，环境  
+自动生成heroku环境  
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/zuikea/heroku-joplin)
 
