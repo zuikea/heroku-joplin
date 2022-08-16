@@ -1,0 +1,16 @@
+{
+  "name": "joplin-server-heroku",
+  "description": "将joplin-server部署到heroku",
+  "repository": "https://github.com/zuikea/heroku-joplin",
+  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "keywords": ["Docker", "Joplin Server", "Note"],
+  "success_url": "/api/ping",
+  {
+    "stack": "container"
+  }
+  "env": {
+    "APP_BASE_URL": {
+      "description": "heroku提供的网站名称"
+    }
+  }
+}
