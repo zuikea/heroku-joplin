@@ -20,7 +20,7 @@
         },
         "DB_CLIENT": {
             "description": "是否使用pg客户端，设为pg，未使用，其他不使用",
-            "value": "no pg" 
+            "value": "pg" 
         },
         "POSTGRES_HOST": {
             "description": "pg地址",
